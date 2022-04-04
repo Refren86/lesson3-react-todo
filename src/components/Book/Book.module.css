@@ -1,0 +1,50 @@
+.deleteBtn {
+  fill: red;
+}
+
+.deleteBtn:hover {
+  fill: firebrick;
+}
+
+.checkBtn {
+  fill: green;
+}
+
+.checkBtn:hover {
+  fill: darkgreen;
+}
+
+.descriptionBlock {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bookBlock {
+  border: 1px solid firebrick;
+  padding: 10px 25px;
+  margin: 30px 0;
+}
+
+.buttonsBlock {
+  display: flex;
+  column-gap: 25px;
+}
+
+.bookName {
+  margin-bottom: 20px;
+}
+
+.isRead {
+  margin-bottom: 20px;
+  color: grey;
+  text-decoration: line-through;
+}

@@ -1,0 +1,16 @@
+.myBtn {
+  display: block;
+  padding: 5px 20px;
+  color: firebrick;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid firebrick;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.myBtn:hover {
+  background-color: firebrick;
+  color: white;
+}
