@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import BOOK_ITEMS from "./store/books.json";
-import { Form, Books } from "./components";
+import { Form, Books, StaticBoard } from "./components";
 
 const App = () => {
   const [books, setBooks] = useState(BOOK_ITEMS);
@@ -26,7 +26,7 @@ const App = () => {
   return (
     <div className="wrapper">
       <Form books={books} setBooks={setBooks} />
-      {/* <StaticBoard /> */}
+      <StaticBoard books={books} setBooks={setBooks} />
       <Books
         books={books}
         deleteBook={deleteBook}
